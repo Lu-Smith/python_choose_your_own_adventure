@@ -14,10 +14,10 @@ if answer == "left":
         print("Not a valid option. You loose. ")
 
 elif answer == "right":
-    answer = input("You come to a bridge it looks wobbly, do you want to cross it or head back? (cross/back)")
+    answer = input("You come to a bridge it looks wobbly, do you want to cross it or head back? (cross/back) ")
 
     if answer == "cross":
-        answer = input("You cross the bridge and you meet a stranger. Do you talk to them? (yes/no)")
+        answer = input("You cross the bridge and you meet a stranger. Do you talk to them? (yes/no) ")
 
         if answer == "yes":
             print("You talk to the stranger and they gave you a gold. You won!")
